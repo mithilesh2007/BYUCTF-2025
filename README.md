@@ -35,11 +35,13 @@ public class MainActivity extends AppCompatActivity {
 - So i wrote a python code to print the sorted string
 
 ```python
-str = "bycnu)_aacGly~}tt+?=<_ML?f^i_vETkG+ b{nDJrVp6=)="
+str = "bycnu)_aacGly~}tt+?=<_ML?f^i_vETkG+b{nDJrVp6=)="
 
+output=""
 for i in range(0, 23):
     index = (i * i) % 47
-    print(str[index])
+    output+=str[index]
+print(output)
 
 ```
 

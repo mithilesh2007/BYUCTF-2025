@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 - In the main activity there is an if block which checks weather our flag is correct or not with an internally stored flag
 - So i double clicked on the `FlagChecker` which lead me to a class which is loading data from `babyandroid.lib`
 - Now we need to decompile the binary file using ghidra
-- Then i found this string `bycnu)_aacGly~}tt+?=<_ML?f^i_vETkG+ b{nDJrVp6=)=` , where some storing is happening on it
+- Then i found this string `bycnu)_aacGly~}tt+?=<_ML?f^i_vETkG+b{nDJrVp6=)=` , where some storing is happening on it
 - So i wrote a python code to print the sorted string
 
 ```python
